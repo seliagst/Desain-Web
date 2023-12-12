@@ -1,0 +1,109 @@
+#facility {
+	background-image: url(https://www.shutterstock.com/image-illustration/website-header-banner-design-abstract-260nw-1621024345.jpg);
+	background-size: cover; 
+	background-position: center;
+	color: white;
+	height: 300px;
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	text-align: center; 
+	opacity: 0.85;
+}
+#fasilitas h2 {
+	text-align: center;
+}
+#ruangdosen {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, white, #89c2d9) border-box;
+  	border-radius: 50px;
+  	border: 50px solid transparent;
+
+}
+#ruangdosen img {
+    max-width: 35%;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+.teks-ruangdosen {
+    max-width: 50%;
+    padding-right: 50px;
+}
+#lab {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(white, white) padding-box,
+              linear-gradient(to left, white, #2a6f97) border-box;
+  	border-radius: 50px;
+  	border: 50px solid transparent;
+}
+#lab img {
+    max-width: 35%;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+.teks-lab {
+    max-width: 50%;
+    padding-left: 50px;
+}
+
+#lib {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right , white, #89c2d9) border-box;
+  	border-radius: 50px;
+  	border: 50px solid transparent;
+}
+#lib img {
+    max-width: 35%;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+.teks-lib {
+    max-width: 50%;
+    padding-right: 50px;
+}
+
+#ruangmulmed {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(white, white) padding-box,
+              linear-gradient(to left, white, #2a6f97) border-box;
+  	border-radius: 50px;
+  	border: 50px solid transparent;
+
+}
+#ruangmulmed img {
+    max-width: 35%;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+.teks-ruangmulmed {
+    max-width: 50%;
+    padding-left: 50px;
+}
+#share {
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+#share a{
+	padding-right: 10px;
+	text-decoration: none;
+}
+#share img{
+	width: 32px;
+	height: 32px;
+}
+#footer3 {
+	color: white;
+	background-color: #001845;
+	text-align: center;
+	padding: 20px;
+}

@@ -1,0 +1,106 @@
+#profilll {
+	background-image: url(https://www.shutterstock.com/image-illustration/website-header-banner-design-abstract-260nw-1621024345.jpg);
+	background-size: cover; 
+	background-position: center;
+	color: white;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	text-align: center; 
+	opacity: 0.85;
+}
+#profil h1 {
+	text-align: center;
+}
+#profil {
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gambar, #video {
+    flex: 1;
+    padding: 10px;
+}
+#gambar img{
+	opacity: 1;
+    transition: opacity 1s;
+}
+#gambar img:hover{
+	opacity: 0.5;
+}
+#VisiMisiGoals h1{
+	text-align: center;
+}
+#image-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+#image-container img {
+    max-width: 100%;
+    height: 200px;
+	width: 400px;
+	padding-bottom: 50px;
+	position: relative;
+	left: 0;
+    transition: left 1s;
+}
+#image-container img:hover{
+	left: 20px; 
+}
+.vision h2, .mision h2, .goals h2 {
+	color: #1e6091;
+	text-align: center;
+}
+.vision p, .goals ol {
+	border-left: 5px solid #023e7d;
+	border-radius: 20px;
+    padding: 20px; 
+    background-color: #e2eafc;
+    margin: 10px; 
+    font-size: 20px;
+    font-family: unset;
+    font-style: oblique;
+    font-weight: bold;
+}
+.mision ol{
+	border-right: 5px solid #023e7d;
+	border-radius: 20px;
+    padding: 20px;
+    background-color: #e2eafc;
+    margin: 10px; 
+    font-size: 20px;
+    font-family: unset;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.mision ol, .goals ol {
+	padding: 50px;
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+#share {
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+#share a{
+	padding-right: 10px;
+	text-decoration: none;
+}
+#share img{
+	width: 32px;
+	height: 32px;
+}
+#footer2 {
+	color: white;
+	background-color: #001845;
+	text-align: center;
+	padding: 20px;
+}

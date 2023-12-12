@@ -1,0 +1,461 @@
+#topbar {
+    background-color: #023E7D;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.top-contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;     
+    margin-right: 50px;
+}
+
+#topbar li {
+    margin-left: 20px; 
+}
+#topbar li .icon {
+    font-size: 20px; 
+    margin-right: 10px; 
+}
+#topbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+
+.brand-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-info h1 {
+    margin-bottom: 5px; 
+}
+
+.brand-info h3 {
+    margin-top: 5px; 
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbox {
+	position: absolute; 
+    right: 50px;
+    top: 70px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+}
+
+input.form-control {
+    flex: 1; 
+}
+
+button.btn {
+    margin-left: 0px;
+    background-color: #002855 ;
+    color: white;
+}
+
+
+
+#menu {
+    background:  #002855;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    list-style: none;
+    z-index: +1;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#menu ul li {
+    flex: 1;
+    position: relative;
+}
+
+#menu ul li a {
+    padding: 10px 20px; 
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#menu ul li:hover {
+    background: #0353A4;
+}
+
+#menu ul ul {
+    background:  #002855;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+
+#latar img {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 0 0px;
+    display: flex;
+    opacity: 0.8;
+  }
+
+
+
+.informasi {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 170px;
+    padding-left: 170px;
+    padding-bottom: 50px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    grid-gap: 20px; 
+}
+
+.grid3 p, .grid3 h2 {
+    text-align: center;
+}
+
+.grid3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.grid3 a {
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px;
+    background: #0466C8;
+    border-radius: 50px;
+    color: white;
+}
+
+.grid3 a:hover {
+    background-color: #002855;
+}
+
+.grid3 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px 4px 0 0;
+    transition: transform 0.5s;
+}
+
+.grid3 img:hover {
+    transform: rotate(360deg);
+}
+.grid3 p {
+    padding-bottom: 20px;
+}
+
+#konten {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 0px 0px 20px;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+}
+
+.posttitle {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial;
+    color: black;
+}
+
+.post {
+    margin: 0px 20px 0px 20px;
+    text-align: justify;
+}
+
+
+#juduljurnal{
+	text-align: center;
+    background-color: #0353A4;
+    padding: 20px; 
+    border: 1px solid #0353A4;
+    border-radius: 5px;
+    color: white;
+}
+.hr-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.hr-container2 hr {
+    margin: 3px;
+}
+#journal .image-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#journal .image-link img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#journal .image-link p {
+    margin: 0;
+}
+#journal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:  #023E7D;
+    border: 1px solid #023E7D;
+    border-radius: 5px;
+    padding: 80px;
+    transform: scale(0.9);
+    transition: transform 3s;
+}
+#journal:hover {
+    transform: scale(1);
+}
+.jurnal1, .jurnal2 {
+    flex: 0 0 calc(50% - 10px); 
+    margin-bottom: 20px;
+}
+
+
+.jurnal1 p, .jurnal2 p {
+    color: white;
+}
+.journal-title {
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.journal-description {
+    color: #b8b8ff;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+#articles {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#articles h5 {
+  color: #0077b6;
+}
+
+.hr-container1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+}
+
+.hr-container1 hr {
+  margin: 3px;
+}
+
+.article {
+  flex: 1;
+  max-width: 24%;
+  margin: 0 1%;
+  border: 1px solid #e2eafc;
+  text-align: center;
+  background-color: #e2eafc;
+  font-family: arial;
+}
+
+.article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transform: scale(1.1);
+  transition: transform 3s;
+}
+
+.article:hover img {
+  transform: scale(1);
+}
+
+.article a {
+  color: black;
+  text-decoration: none;
+}
+
+.article a:hover {
+  color: purple;
+}
+
+#patner { 
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 80px; 
+	text-align: right;
+	background-color: #e2eafc; 
+}
+#patner h1 {
+    margin: 0;
+    position: relative;
+}
+.hr-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+.hr-container hr {
+    margin: 3px;
+}
+
+.school img {
+	width: auto; 
+}
+.school {
+	padding-top: 50px;
+    position: relative;
+    left: 0;
+    transition: left 1s;
+}
+.school:hover {
+    left: -20px; 
+}
+.grid {
+	display: grid; 
+	grid-template-columns: repeat(4, 1fr);
+	width: 80%; 
+	margin: auto;  
+}
+
+footer {
+	background: #002962; 
+	color: white; 
+	opacity: 90%; 
+	padding: 20px;
+	padding-left: 120px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    font-family: arial;
+}
+footer p {
+    font-size: 12px;
+    font-family: arial;
+}
+.kiri a{
+	color: white;
+    text-decoration: none; 
+}
+.kiri a:hover{
+	color: #0466C8;
+}
+
+.kiri img {
+    width: auto; 
+    height: auto;
+    margin-left: 100px;
+}
+.kiri p {
+    margin-left: 100px; 
+}
+
+.divider {
+    width: 1px;
+    background-color: #023E7D;
+    height: 350px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+
+.kanankiri, .kanantengah, .kanankanan {
+    flex: 1;
+    margin: 10px;
+}
+.kanan {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.kanankanan img{
+	max-width: 100%;
+}
+
+
+.kanankiri a{
+	color: white; 
+    text-decoration: none; 
+}
+.kanantengah a{
+	color: white; 
+    text-decoration: none; 
+}
+.kanankiri a:hover{
+	color: #0466C8;
+}
+.kanantengah a:hover{
+	color: #0466C8;
+}
+.bawah {
+    background: #002962; 
+    padding: 20px; 
+    text-align: center; 
+    color: white;
+}
+
+
+
+
